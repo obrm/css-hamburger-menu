@@ -1,9 +1,9 @@
 /* Global Variables */
 :root {
   --primary-color: rgba(24, 29, 31, 0.5);
-  --secondary-color: rgba(229, 148, 0, 0.9);
+  --secondary-color: rgba(109, 107, 240, 0.9);
   --light-color: rgb(187, 204, 211);
-  --overlay-color: rgba(24, 39, 51, 0.85);
+  --overlay-color: rgba(24, 39, 51, 0.9);
   --menu-speed: 0.75s;
 }
 
@@ -37,8 +37,8 @@ body {
 
 #showcase::before {
   content: '';
-  background: url(https://source.unsplash.com/random/1920x1536) no-repeat center
-    center/cover;
+  background: url(https://source.unsplash.com/1920x1536/?nature) no-repeat
+    center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -74,6 +74,7 @@ body {
   transition: all 0.5s ease-in-out;
   text-decoration: none;
   border-radius: 5px;
+  opacity: 0.9;
 }
 
 .btn:hover {
